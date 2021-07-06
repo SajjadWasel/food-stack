@@ -115,7 +115,7 @@ p {
     margin-top: 1%;
     margin-right: 2%;
     margin-left: 2%;
-    border: 20px solid white;
+    padding:21px;
     border-radius: 5%;
     box-shadow: 1px 1px 12px lightgray;
     height: 450px;
@@ -126,3 +126,30 @@ p {
 }
 
 /*recipie section css end here*/
+
+
+
+/*counter section css start here*/
+
+#counter {
+    display: flex;
+    height: 210px;
+    margin-left:5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px lightgray;
+    
+}
+
+#counter .number {
+    margin-left: 16%;
+}
+
+#counter .number h1 {
+    color: black;
+}
+
+
+/*counter section css end here*/
+
+

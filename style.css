@@ -48,7 +48,7 @@ p {
 }
 
 #top-banner h1 {
-    margin-top: 23%;
+    margin-top: 20%;
 }
 
 #top-banner h1 span{
@@ -116,12 +116,14 @@ p {
     margin-left: 2%;
     padding:21px;
     border-radius: 25px;
-    box-shadow: 1px 1px 12px lightgray;
     height: 450px;
+    width: 300px;
+    box-shadow: 1px 1px 12px lightgray;
 }
 
 #recipie-section #recipie-menu .single-recipie img {
     width: 100%;
+    height: 230px;
 }
 
 /*recipie section css end here*/
@@ -179,7 +181,7 @@ p {
     display: flex;
 }
 
-.comment {
+#all-feedback .comment {
     padding: 15px;
     margin-right: 2%;
     margin-left: 2%;
@@ -187,20 +189,20 @@ p {
     box-shadow: 10px 10px 20px gray;
 }
 
-.comment .profile {
+#all-feedback .comment .profile {
     display: flex;
 }
 
-.comment .profile h3 {
+#all-feedback .comment .profile h3 {
     padding-left: 15px;
     margin-top: -1px;
 }
 
-.comment .profile h5 {
+#all-feedback .comment .profile h5 {
     margin-left: -99px;
 }
 
-.comment img{
+#all-feedback .comment img{
    height: 50px;
    width: 50px;
    border-radius: 50%;
@@ -210,7 +212,7 @@ p {
 
 
 
-/*Contact section css starts here*/
+/*contact section css starts here*/
 
 #contact {
     margin-right: 10%;
@@ -225,6 +227,10 @@ p {
     text-align: center;
     color: grey;
     margin-bottom: 100px;
+}
+
+#contact h2 span {
+    color: orange;
 }
 
 #contact h3 {
@@ -246,10 +252,20 @@ p {
     border-radius: 50px;
 }
 
-/*Contact section css end here*/
+
+#contact .send input{
+    margin-top: 120px;
+    background-image: linear-gradient(to left,#FE492E,#FB994C);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+/*contact section css end here*/
 
 
-/*footer section css end here*/
+/*footer section css start here*/
 
 footer {
     background-color: #0B0D17;
@@ -258,14 +274,16 @@ footer {
     text-align: center;
 }
 
+footer h1 span {
+    color: orange;
+}
+
 footer p {
     margin-bottom: 20px;
     color: white;
 }
 
-footer span {
-    color: orange;
-}
+
 
 
 /*footer section css end here*/

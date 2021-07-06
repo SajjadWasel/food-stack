@@ -6,7 +6,7 @@ body {
 
 
 
-/*CSS for all section start here*/
+/*CSS for similar things start here*/
 
 section {
     margin-bottom: 10%;
@@ -31,7 +31,7 @@ p {
     margin-bottom: 70px;
 }
 
-/*CSS for all section end here*/
+/*CSS for similar things end here*/
 
 
 
@@ -63,3 +63,25 @@ h1 {
 
 /*top-banner css end here*/
 
+
+
+
+/*about section css start here*/
+
+#about {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+#about img {
+    width: 60%;
+    margin-left: 15%;
+}
+
+#about p {
+    font-weight: 400;
+}
+
+/*about section css end here*/
